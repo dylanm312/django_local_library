@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-=xytyvlg=00^%4
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False' # if DJANGO_DEBUG='False', boolean returns False, else True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://obscure-island-39989.herokuapp.com/', 'localhost', '127.0.0.1']
 
 
 # Application definition
